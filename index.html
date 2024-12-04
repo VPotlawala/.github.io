@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio - Vaishnavi Potlawala</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7103135dbe.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/Logo,png.jpg" class="logo" alt="Logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Admin and Marketing Assistant</p>
+                <h1>Hello, I’m <span>Vaishnavi</span><br> from Canada, dedicated to delivering exceptional services that
+                    illuminate possibilities and inspire excellence!</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/Photo.jpg.png" alt="Vaishnavi's Photo">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>A detail-oriented professional based in Canada, with a knack for keeping things organized and
+                        running smoothly. Whether it’s managing office tasks, streamlining operations, or supporting
+                        teams, I’m all about finding smart solutions with a smile. Outside of work, you’ll catch me
+                        enjoying a good laugh, a warm cup of chai, and the little joys that make life exciting. Let’s
+                        collaborate and make things happen!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Marketing</span><br>Crafting impactful content to enhance brand visibility.</li>
+                            <li><span>Administration</span><br>Streamlining office operations for maximum efficiency.
+                            </li>
+                            <li><span>Communication</span><br>Building strong connections through clear and professional
+                                interactions.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Feb 2024 - Current</span><br>Admin and Marketing Assistant at Peggy Hill Team.
+                            </li>
+                            <li><span>June 2023 - Feb 2024</span><br>Bookkeeper at Gardhouse Financial.</li>
+                            <li><span>Oct 2022 - May 2023</span><br>Manager on Duty at Blue Mountain Resorts.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Most Recent</span><br>Diploma in Business Management from Georgian College.</li>
+                            <li><span>2018 - 2020</span><br>Diploma in Marketing.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <h2>Marketing</h2>
+                    <p>Enhancing brand visibility through impactful campaigns and data-driven strategies.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-user-tie"></i>
+                    <h2>Admin Tasks</h2>
+                    <p>Streamlining workflows and ensuring smooth day-to-day operations.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Web Design</h2>
+                    <p>Creating clean, user-friendly websites that showcase businesses effectively.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Section -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="Images/marketing.pneg.jpg" alt="Marketing Project">
+                    <div class="layer">
+                        <h3>Marketing Projects</h3>
+                        <p>This marketing plans and examples will help you to reach maximum group of people!</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/Admin.pneg.jpg" alt="Admin Project">
+                    <div class="layer">
+                        <h3>Admin work</h3>
+                        <p>There are some ideas to organize office in a proper workflow </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/Web,jpeg.jpg" alt="Web Design Project">
+                    <div class="layer">
+                        <h3>Content Writing</h3>
+                        <p>These contents are SEO friendly and and reach maximum target audience!</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- -----contact---- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-paper-plane"></i>vaishnavipotla2023@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>7057958539</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href="www.linkedin.com/in/
+                        vaishnavipotla"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Images/Resume_Vaishnavi Potlawala.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit </button>
+
+                    </form>
+                    <span id="message"></span>
+                </div>
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Vaishnavi | Making your visions a reality.</p>
+        </div>
+
+    </div>
+
+    <script>
+        function opentab(tabname) {
+            const tablinks = document.getElementsByClassName("tab-links");
+            const tabcontents = document.getElementsByClassName("tab-contents");
+
+            for (let tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (let tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            document.querySelector(`[onclick="opentab('${tabname}')"]`).classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxvIgq8x_KDFyoQiN8bFugZTzam0DlaHX8ldmQZecqKxbt0NIckG1Nkjo_taH_MuxMNjg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const message = document.getElementById("message")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    message.innerHTML = "Thank you for your Message"
+                    setTimeout(function () {
+                        message.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
